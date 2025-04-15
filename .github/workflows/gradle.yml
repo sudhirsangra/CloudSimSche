@@ -42,7 +42,7 @@ jobs:
     - name: Create Artifact
       uses: actions/upload-artifact@v4
       with:
-          path: build/libs/my-java-app.jar  # Or the path to your jar file
+          path: build/libs/CloudSimSche-1.0-SNAPSHOT.jar  # Or the path to your jar file
           
     # NOTE: The Gradle Wrapper is the default and recommended way to run Gradle (https://docs.gradle.org/current/userguide/gradle_wrapper.html).
     # If your project does not have the Gradle Wrapper configured, you can use the following configuration to run Gradle with a specified version.
