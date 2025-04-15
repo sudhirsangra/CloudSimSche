@@ -50,7 +50,7 @@ Choose any of the following algorithms:
 2. Add the [CloudSim library](http://www.cloudbus.org/cloudsim/) to your project.
 3. Compile and run the project:
     ```bash
-    javac CloudSimDemo.java
+    javac CloudSimSche.java
     java CloudSimDemo
     ```
 

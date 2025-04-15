@@ -1,11 +1,12 @@
 import org.cloudbus.cloudsim.*;
-import org.cloudbus.cloudsim.core.CloudSim;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
+
+import org.cloudbus.cloudsim.core.CloudSim;
 import org.cloudbus.cloudsim.provisioners.BwProvisionerSimple;
 import org.cloudbus.cloudsim.provisioners.PeProvisionerSimple;
 import org.cloudbus.cloudsim.provisioners.RamProvisionerSimple;
@@ -16,7 +17,7 @@ import Algorithms.GeneticAlgorithm;
 import Algorithms.RoundRobinAlgorithm;
 import Algorithms.SJFAlgorithm;
 
-public class CloudSimDemo {
+public class CloudSimSche {
     public static void main(String[] args) {
         try {
             // Initialize the CloudSim package
