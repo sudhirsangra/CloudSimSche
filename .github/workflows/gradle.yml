@@ -42,7 +42,7 @@ jobs:
     - name: Create Artifact
       uses: actions/upload-artifact@v4
       with:
-          path: build/libs/*.jar  # Or the path to your jar file
+          path: CloudSimSche/build/libs/*.jar  # Or the path to your jar file
 
     - name: List build outputs
       run: ls -R CloudSimSche/build/
